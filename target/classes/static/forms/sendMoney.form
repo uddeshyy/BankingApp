@@ -1,0 +1,56 @@
+{
+  "components": [
+    {
+      "text": "# Enter Details",
+      "type": "text",
+      "id": "Field_02ylmlp"
+    },
+    {
+      "label": "Enter Account Number",
+      "type": "textfield",
+      "id": "Field_0k23cix",
+      "key": "toAccNo",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Enter Amount",
+      "type": "number",
+      "id": "Field_1gf22ot",
+      "key": "toSendAmount",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Remarks",
+      "type": "textfield",
+      "id": "Field_0woj8fj",
+      "key": "remarks"
+    },
+    {
+      "label": "Error (if any)",
+      "type": "textfield",
+      "id": "Field_0h5st7f",
+      "key": "send_money_error",
+      "disabled": true
+    },
+    {
+      "action": "submit",
+      "label": "Send",
+      "type": "button",
+      "id": "Field_0a66bua",
+      "key": "field_160ndbc"
+    }
+  ],
+  "type": "default",
+  "id": "sendMoney",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}

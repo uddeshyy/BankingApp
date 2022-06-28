@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Enter Transaction Number",
+      "type": "textfield",
+      "id": "Field_14u6caa",
+      "key": "transactionId"
+    },
+    {
+      "label": "Errors (if any)",
+      "type": "textfield",
+      "id": "Field_0zwt8y7",
+      "key": "issue_error",
+      "disabled": true
+    },
+    {
+      "action": "submit",
+      "label": "Submit",
+      "type": "button",
+      "id": "Field_09zqiak",
+      "key": "field_0rw9df9"
+    }
+  ],
+  "type": "default",
+  "id": "issue",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.17.0",
+  "schemaVersion": 4
+}

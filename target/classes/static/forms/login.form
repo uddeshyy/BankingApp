@@ -1,0 +1,44 @@
+{
+  "components": [
+    {
+      "text": "# Log In",
+      "type": "text",
+      "id": "Field_0jsdyk1"
+    },
+    {
+      "label": "Username",
+      "type": "textfield",
+      "id": "Field_1eeu6lh",
+      "key": "username"
+    },
+    {
+      "label": "Password",
+      "type": "textfield",
+      "id": "Field_136znfk",
+      "key": "password"
+    },
+    {
+      "label": "Errors (if any)",
+      "type": "textfield",
+      "id": "Field_0plkw5p",
+      "key": "login_error",
+      "disabled": true
+    },
+    {
+      "action": "submit",
+      "label": "Log In",
+      "type": "button",
+      "id": "Field_0rjj3c1",
+      "key": "field_0lsv1oi"
+    }
+  ],
+  "type": "default",
+  "id": "login",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}

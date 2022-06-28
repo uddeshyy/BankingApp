@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "text": "# Create Account",
+      "type": "text",
+      "id": "Field_1te7vu0"
+    },
+    {
+      "label": "Enter Full name",
+      "type": "textfield",
+      "id": "Field_19acpns",
+      "key": "name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Enter Age",
+      "type": "number",
+      "id": "Field_1conuxq",
+      "key": "age",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "value": "male",
+          "label": "Male"
+        },
+        {
+          "label": "Female",
+          "value": "female"
+        },
+        {
+          "label": "Others",
+          "value": "others"
+        }
+      ],
+      "label": "Gender",
+      "type": "radio",
+      "id": "Field_0icovom",
+      "key": "gender"
+    },
+    {
+      "label": "Set Username",
+      "type": "textfield",
+      "id": "Field_0og0il5",
+      "key": "username",
+      "validate": {
+        "required": true,
+        "minLength": 3,
+        "maxLength": 15
+      }
+    },
+    {
+      "label": "Set Password",
+      "type": "textfield",
+      "id": "Field_177n0kg",
+      "key": "password",
+      "validate": {
+        "required": true,
+        "minLength": 8,
+        "maxLength": 20
+      }
+    },
+    {
+      "label": "Set Account Balance",
+      "type": "number",
+      "id": "Field_1k6u9ua",
+      "key": "balance"
+    },
+    {
+      "label": "Errors (if any)",
+      "type": "textfield",
+      "id": "Field_14qe027",
+      "key": "create_account_error",
+      "disabled": true
+    },
+    {
+      "action": "submit",
+      "label": "Submit",
+      "type": "button",
+      "id": "Field_1k8gz8f",
+      "key": "field_1hqvimj"
+    }
+  ],
+  "type": "default",
+  "id": "createAccount",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.0.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.0.0"
+  },
+  "schemaVersion": 4
+}
