@@ -1,7 +1,7 @@
 # BankingApp
 
 
-[![issues](https://img.shields.io/github/issues/uddeshyy/BankingApp)](https://github.com/uddeshyy/BankingApp/issues)
+[![GitHub issues](https://img.shields.io/github/issues/uddeshyy/BankingApp)](https://github.com/uddeshyy/BankingApp/issues)
 [![forks](https://img.shields.io/github/forks/uddeshyy/BankingApp)](https://github.com/uddeshyy/BankingApp/network)
 [![stars](https://img.shields.io/github/stars/uddeshyy/BankingApp)](https://github.com/uddeshyy/BankingApp/stargazers)
 
